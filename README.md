@@ -1,2 +1,2 @@
-# Atividade1_GUILHERME_DOUGLAS_DANIELA
-Atividade prática jogo das três pistas
+# ATIVIDADE1_DOUGLAS_GUILHERME
+Atividade prática Jogo das 3 Pistas

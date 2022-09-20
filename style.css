@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    /* background-color: lightgreen; */
+    border: 1px solid;
+
+    max-width: 992px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+header {
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+
+    border: 1px solid;
+
+    margin-bottom: 2rem;
+}
+
+header div span {
+    font-size: 2rem;
+}
+
+.pistas {
+    width: 100%;
+}
+
+.pistas div {
+    margin-bottom: .9rem;
+}
+
+.pista div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    font-size: 1.5rem;
+}
+
+.pista div span {
+    background-color: lightblue;
+}
+
+.pista div span, .pista div h3 {
+    border: 1px solid;
+    padding: .25rem;
+}
+
+#pista2 {
+    margin-left: 2rem;
+}
+
+#pista3 {
+    margin-left: 4rem;
+}
+
+.resposta {
+    /* border: 1px solid; */
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.resposta div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.resposta input {
+    padding: .80rem;
+    margin-right: 2rem;
+    width: 100%;
+}
+
+.resposta button {
+    padding: 10px;
+}
+
+#imagem {
+    margin: 0 auto;
+}
+
+.resposta div img {
+    width: 20rem;
+}
